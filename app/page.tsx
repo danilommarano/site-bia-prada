@@ -3,6 +3,16 @@ import Image from "next/image"
 export default function Home() {
   return (
     <main className="flex justify-center">
+      <nav className="fixed w-full max-w-[1280px] px-10 flex justify-between h-16 items-center backdrop-blur bg-white/30 ">
+        <div className="flex gap-8">
+          <button className="text-sm">inicio</button>
+          <button className="text-sm">trabalhos</button>
+          <button className="text-sm">contato</button>
+        </div>
+        <button className="px-4 py-1 text-lg rounded-full font-bold text-white bg-gradient-to-l from-red-400 via-indigo-500 to-blue-500">
+          📆 Agendar reunião
+        </button>
+      </nav>
         </div>
       </div>
 
